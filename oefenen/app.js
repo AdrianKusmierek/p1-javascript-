@@ -27,7 +27,9 @@ function changeTitleColor() {
 }
 
 function hehe() {
-    body.style.backgroundColor = `hsl(${Math.random() * 360}, 100%, 50%)`;
+    setInterval(() => {
+        body.style.backgroundColor = `hsl(${Math.random() * 360}, 100%, 50%)`;
+    }, 100);
 }
 
 /////////////////////////////////////////////////////////
