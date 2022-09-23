@@ -18,10 +18,10 @@ function countdown(targetDate) {
     const gap = Math.abs(targetDate - now);
 
     // Defining the overall time left.
-    const second = Math.ceil(gap / 1000);
-    const minute = Math.ceil(second / 60);
-    const hour = Math.ceil(minute / 60);
-    const day = Math.ceil(hour / 24);
+    const second = Math.floor(gap / 1000);
+    const minute = Math.floor(second / 60);
+    const hour = Math.floor(minute / 60);
+    const day = Math.floor(hour / 24);
 
     // Defining the relative time left.
     const textDay = `${day}`;
