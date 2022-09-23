@@ -6,3 +6,10 @@
 
     width: 20vw;
 }
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+    color: red;
+    font-weight: bold;
+}

@@ -13,17 +13,22 @@ const btn = document.getElementById("btn");
 // Creating a new functionc called "addItem".
 function addItem() {
     // If there's less than 1 character in the input field, it'll return an error.
-    if (input.value.length < 1) alert("Please enter at least one letter");
+    if (input.value.length < 1) {
+        alert("Please enter at least one letter")
+    } else {
+        // Creating a new paragraph element with the value of the input field.
+        // Attaching them to one another afterwards.
+        let newPara = document.createElement("p");
+        newPara.innerHTML = `<a onclick="removeItem(this)">x</a> ${input.value}`;        
 
-    // Creating a new paragraph element with the value of the input field.
-    // Attaching them to one another afterwards.
-    let newPara = document.createElement("p");
-    let newNode = document.createTextNode(input.value);
-    newPara.appendChild(newNode);
+        // Making the input field empty and writing to the document.
+        input.value = "";
+        document.body.appendChild(newPara);
+    }
+}
 
-    // Making the input field empty and writing to the document.
-    input.value = "";
-    document.body.appendChild(newPara);
+function removeItem(e) {
+    e.parentElement.remove();
 }
 
 ////////////////////////////////////////////
