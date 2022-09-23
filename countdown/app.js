@@ -9,7 +9,7 @@ const countDate = new Date("2023-04-22T17:00:00");
 var e = document.getElementById("counter");
 
 ///////////////////////////////////////////////
-//               Main Functions             ///
+///              Main Functions             ///
 ///////////////////////////////////////////////
 
 function countdown(targetDate) {
@@ -40,7 +40,7 @@ function countdown(targetDate) {
 }
 
 ///////////////////////////////////////////////
-//                   Main                   ///
+///                  Main                   ///
 ///////////////////////////////////////////////
 
 // Setting the time left on page load.
