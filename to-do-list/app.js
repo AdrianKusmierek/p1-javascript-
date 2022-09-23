@@ -27,7 +27,9 @@ function addItem() {
     }
 }
 
+// This function is ran when the "x" button is clicked.
 function removeItem(e) {
+    // Removes the parent of the "x" button.
     e.parentElement.remove();
 }
 
