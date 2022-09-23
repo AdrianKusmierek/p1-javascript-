@@ -14,7 +14,7 @@ const btn = document.getElementById("btn");
 function addItem() {
     // If there's less than 1 character in the input field, it'll return an error.
     if (input.value.length < 1) {
-        alert("Please enter at least one letter")
+        alert("Please enter at least one letter!")
     } else {
         // Creating a new paragraph element with the value of the input field.
         // Attaching them to one another afterwards.
