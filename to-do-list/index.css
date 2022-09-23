@@ -4,7 +4,11 @@
     font-family: "Roboto Condensed";
     font-size: 2vw;
 
-    width: 20vw;
+    width: 300px;
+}
+
+button {
+    width: 308px;
 }
 
 a {
@@ -12,4 +16,12 @@ a {
     cursor: pointer;
     color: red;
     font-weight: bold;
+}
+
+a:hover {
+    color: rgb(255, 125, 125);
+}
+
+a:active {
+    color: rgb(194, 0, 0);
 }
