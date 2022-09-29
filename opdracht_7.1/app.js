@@ -1,7 +1,7 @@
 const output = document.getElementById("output");
 
 var budget = 100;
-var product = 60;
+var product = prompt("Hoeveel kost het product dat je wilt kopen?", "60")
 
 if (budget > product) {
     output.innerText = "U heeft genoeg geld!";
