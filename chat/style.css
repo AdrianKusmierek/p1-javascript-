@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+
+    font-size: 5vh;
+    font-family: "Roboto Condensed";
+
+    overflow: hidden;
+}
+
+body {
+    height: 1080px;
+}
+
+#input {
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    flex-flow: row wrap;
+}
+
+input {
+    width: 100vw;
+    height: 50px;
+
+    position: fixed;
+}
+
+#x {
+    font-size: 2vh;
+    color: gray;
+}
