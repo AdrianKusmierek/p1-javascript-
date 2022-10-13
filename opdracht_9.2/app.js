@@ -1,0 +1,2 @@
+let openFace = (x, y) => { if (y.classList.contains("closed")) { y.classList.add("active"); x.classList.remove("active") }};
+let closedFace = (x, y) => { if (y.classList.contains("open")) { y.classList.add("active"); x.classList.remove("active") }};
