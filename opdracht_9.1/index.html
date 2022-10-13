@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>opdracht_9.1</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <button onclick="showModal(document.getElementById('modal'))">Modal</button>
+
+    <div class="modalMain" id="modal">
+        <div class="modal">
+            <input type="text" id="in" placeholder="Your age...">
+            <input type="submit" value="Submit" onclick="checkAge(document.getElementById('in'), document.getElementById('errorPage'))">
+        </div>
+    </div>
+
+    <div class="errorPage" id="errorPage">
+        <h1>Je bent te jong!</h1>
+    </div>
+    
+    <script src="app.js"></script>
+</body>
+</html>
